@@ -1,28 +1,30 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+$Text-color: #fff ;
+$BlueBG-color: #03a9f4;
+$MyBlackColor: #111;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
-  background-color: rgba(3, 168, 244, 0.4274509804);
-}
+
 
 .showcase {
-  position: absolute;
-  right: 0;
   width: 100%;
   min-height: 100vh;
   padding: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #111;
+  background: $MyBlackColor;
   transition: 0.5s;
   z-index: 2;
 }
+
 
 .showcase video {
   position: absolute;
@@ -30,8 +32,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 0.8;
 }
 
@@ -41,34 +42,34 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: $BlueBG-color;
   mix-blend-mode: overlay;
 }
 
 .text {
   position: absolute;
   z-index: 10;
+ 
 }
 
 .text h2 {
   font-size: 5em;
   font-weight: 800;
-  color: #fff;
+  color: $Text-color;
   line-height: 1em;
   text-transform: uppercase;
 }
-
 .text h3 {
   font-size: 4em;
   font-weight: 700;
-  color: #fff;
+  color: $Text-color;
   line-height: 1em;
   text-transform: uppercase;
 }
 
-.text p {
+.text p  {
   font-size: 1.1em;
-  color: #fff;
+  color: $Text-color;
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
@@ -77,13 +78,13 @@
 .text a {
   display: inline-block;
   font-size: 1em;
-  background: #fff;
+  background: $Text-color;
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
-  color: #111;
+  color: $MyBlackColor;
   letter-spacing: 2px;
   transition: 0.2s;
 }
@@ -92,14 +93,40 @@
   letter-spacing: 6px;
 }
 
-@media (max-width: 991px) {
-  .showcase {
+header {
+  font-family: 'Poppins', sans-serif
+}
+
+.Copyright {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+  .showcase
+  {
     padding: 40px;
   }
-  .text h2 {
+  .text h2
+  {
     font-size: 3em;
   }
-  .text h3 {
+  .text h3
+  {
     font-size: 2em;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
