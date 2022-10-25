@@ -1,1 +1,44 @@
-/*# sourceMappingURL=about.css.map */
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+.navbar {
+  background-color: #03a9f4;
+}
+
+body {
+  background-color: #fff;
+}
+
+/*footer*/
+.Copyright {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-brands {
+  margin: 12px;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.fa-envelope {
+  color: rgb(189, 189, 10);
+}
+
+.fa-facebook-messenger {
+  color: #03a9f4;
+}
+
+.fa-phone {
+  color: red;
+}
+
+a {
+  color: #111;
+}
+
+/*footer*//*# sourceMappingURL=about.css.map */
