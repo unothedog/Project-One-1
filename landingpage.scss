@@ -3,12 +3,13 @@
 $Text-color: #fff ;
 $BlueBG-color: #03a9f4;
 $MyBlackColor: #111;
+$text: 'Poppins', sans-serif;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: $text;
 }
 
 
@@ -97,9 +98,44 @@ header {
   font-family: 'Poppins', sans-serif
 }
 
+
+//footer//
+
 .Copyright {
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+
+.fa-brands {
+  margin: 12px;
+}
+
+footer {
+  font-family: $text;
+  background-color: $Text-color;
+}
+
+
+.fa-envelope {
+  color: rgb(189, 189, 10);
+}
+
+.fa-facebook-messenger {
+  color: $BlueBG-color;
+}
+
+.fa-phone {
+  color:red;
+}
+
+a {
+  color: $MyBlackColor
+}
+
 
 
 
