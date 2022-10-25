@@ -5,4 +5,40 @@
 
 body {
   background-color: #fff;
-}/*# sourceMappingURL=product-and-services.css.map */
+}
+
+/*footer*/
+.Copyright {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-brands {
+  margin: 12px;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.fa-envelope {
+  color: rgb(189, 189, 10);
+}
+
+.fa-facebook-messenger {
+  color: #03a9f4;
+}
+
+.fa-phone {
+  color: red;
+}
+
+a {
+  color: #111;
+}
+
+/*footer*//*# sourceMappingURL=product-and-services.css.map */
