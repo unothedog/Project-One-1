@@ -168,4 +168,14 @@ a {
     max-width: fit-content;
     height: auto;
   }
+}
+/*
+  Respond between
+  Here we want to check that both the $lower and $upper keys exist in the $breakpoints map before writing the media query.
+*/
+@media (min-width: 0) and (max-width: 941px) {
+  .container {
+    overflow: hidden;
+    z-index: 10;
+  }
 }/*# sourceMappingURL=contactus.css.map */

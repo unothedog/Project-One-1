@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-.navbar {
-  background-color: #03a9f4;
-}
-
-body {
-  background-color: #fff;
+.searchko {
+  position: absolute;
 }
 
 /*footer*/
@@ -41,4 +37,14 @@ a {
   color: #111;
 }
 
-/*footer*//*# sourceMappingURL=product-and-services.css.map */
+/*footer*/
+/*
+  Respond between
+  Here we want to check that both the $lower and $upper keys exist in the $breakpoints map before writing the media query.
+*/
+@media (min-width: 0) and (max-width: 941px) {
+  .container {
+    overflow: hidden;
+    z-index: 10;
+  }
+}/*# sourceMappingURL=product-and-services.css.map */
