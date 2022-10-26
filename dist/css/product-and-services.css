@@ -47,4 +47,8 @@ a {
     overflow: hidden;
     z-index: 10;
   }
+  .container-fluid {
+    overflow: hidden;
+    z-index: 10;
+  }
 }/*# sourceMappingURL=product-and-services.css.map */
