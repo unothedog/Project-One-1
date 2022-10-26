@@ -44,7 +44,7 @@ $text: 'Poppins', sans-serif;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(245, 245, 245, 0.277);
+  background: rgba(0, 0, 0, 0.255);
   mix-blend-mode: overlay;
 }
 
@@ -95,10 +95,39 @@ h1{
   font-family: $text;
 }
 
+/*section need assistance*/
+
+.card {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
 
 
 
+.directory :hover {
+  animation: bounce 1s;
+}
 
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+/*section need assistance*/
 
 /*footer*/
 

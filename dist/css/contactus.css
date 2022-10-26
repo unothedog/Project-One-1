@@ -35,7 +35,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(245, 245, 245, 0.277);
+  background: rgba(0, 0, 0, 0.255);
   mix-blend-mode: overlay;
 }
 
@@ -85,6 +85,41 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
+/*section need assistance*/
+.card {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.directory :hover {
+  -webkit-animation: bounce 1s;
+          animation: bounce 1s;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+}
+/*section need assistance*/
 /*footer*/
 .Copyright {
   text-align: center;
@@ -126,5 +161,11 @@ a {
   }
   .text h2 {
     font-size: 3em;
+  }
+  .actualmap {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    height: auto;
   }
 }/*# sourceMappingURL=contactus.css.map */
