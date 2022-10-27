@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;1,500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Fredoka One", cursive;
 }
 
 .showcase {
@@ -86,10 +86,6 @@
   letter-spacing: 6px;
 }
 
-header {
-  font-family: "Poppins", sans-serif;
-}
-
 .Copyright {
   text-align: center;
 }
@@ -103,7 +99,6 @@ a {
 }
 
 footer {
-  font-family: "Poppins", sans-serif;
   background-color: #fff;
 }
 

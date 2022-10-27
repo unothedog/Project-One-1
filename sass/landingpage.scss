@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;1,500&display=swap');
 
 $Text-color: #fff ;
 $BlueBG-color: #03a9f4;
@@ -9,7 +9,7 @@ $text: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: $text;
+  font-family: 'Fredoka One', cursive;
 }
 
 
@@ -94,9 +94,6 @@ $text: 'Poppins', sans-serif;
   letter-spacing: 6px;
 }
 
-header {
-  font-family: 'Poppins', sans-serif
-}
 
 
 //footer//
@@ -115,7 +112,7 @@ a {
 }
 
 footer {
-  font-family: $text;
+ 
   background-color: $Text-color;
 }
 

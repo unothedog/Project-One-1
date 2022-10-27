@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;1,500&display=swap');
+
 
 $Text-color: #fff ;
 $BlueBG-color: #03a9f4;
 $MyBlackColor: #111;
-$text: 'Poppins', sans-serif;
+$text: 'Pacifico', cursive'Poppins', sans-serif;
 
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: $text;
+  font-family: 'Fredoka One', cursive;
 }
 
 
@@ -87,47 +89,48 @@ $text: 'Poppins', sans-serif;
   letter-spacing: 6px;
 }
 
-header {
-  font-family: 'Poppins', sans-serif
+/*
+.animationtext {
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .17em solid $MyBlackColor;
+  animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
 }
 
-h1{
-  font-family: $text;
-}
-
-/*section need assistance*/
-
-.card {
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
-}
-
-
-
-.directory :hover {
-  animation: bounce 1s;
-}
-
-
-@keyframes bounce {
-  0%, 20%, 60%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+@keyframes typing {
+  from {
+    width: 0
   }
-
-  40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  80% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
+  to {
+    width: 100%
   }
 }
 
-/*section need assistance*/
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: $Text-color;
+  }
+}
+*/
+
+
+
+
+/*section form*/
+
+.b-color {
+  background-color: rgba(17, 17, 17, 0.079);
+  color: $MyBlackColor;
+}
+
+
+
+/*section form*/
 
 /*footer*/
 
@@ -180,7 +183,7 @@ h1{
   {
     font-size: 3em;
   }
-  .actualmap {
+  .map {
     max-width:fit-content;
     height: auto;
   }
@@ -300,4 +303,11 @@ $breakpoint: map-get($breakpoints, xxl); // Get the extra extra large breakpoint
     overflow: hidden;
     z-index: 10;
 }
+.container-fluid {
+  overflow: hidden;
+  z-index: 10;
 }
+
+}
+
+
