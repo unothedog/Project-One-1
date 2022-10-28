@@ -13,7 +13,7 @@
         <nav class="navbar fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand text-light fw-bolder" href="./index.html"><img src="./image/logo.png" alt="logo-water-dropping" width="50px">Da-num.co</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -39,7 +39,7 @@
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Refill Distilled</a></li>
                         <li><a class="dropdown-item" href="#">Refill Purified</a></li>
-                        <li><a class="dropdown-item" href="#">Refill Alcaline</a></li>
+                        <li><a class="dropdown-item" href="#">Refill Alkaline</a></li>
                         <li><a class="dropdown-item" href="#">Buy Purifier</a></li>
                        
                         <li><a class="dropdown-item" href="#">Purifier installation</a></li>
@@ -58,71 +58,287 @@
           </nav>
     </header>
 
-    <section class="main-order">
+    <!---distilled water-->
+
+    <!-- The Modal -->
+            <div class="modal" id="distilled">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Distilled Water</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>
+                      Distilled water, which is readily available in supermarkets, is the result of boiling tap water and collecting the condensed steam. Impurities, which were in the water, get left behind in the steam. This process also removes minerals, which are not removed in typical filtration methods, from the water. This is why distilled water tastes different than filtered water. Because distilled water is void of minerals, it is slightly acidic. The idea behind drinking distilled water to promote natural detoxification is that it doesn’t flood your body with chlorine, fluoride, and other unpleasant compounds that can be in tap or bottled water.
+                    </p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger" id="one" >Refilled</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+ <!---distilled water-->
+
+  <!---distilled purified-->
+
+    <!-- The Modal -->
+            <div class="modal" id="purified">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Purified Water</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>
+                      Purified water is typically prepared by ion exchange, reverse osmosis or a combination of the two treatment processes. Purified water is intended for use as an ingredient in the preparation of compedial dosage forms. It contains no added substances, and is not intended for use in parenteral products. It contains no chloride, calcium, or sulfate, and is essentially free of ammonia, carbon dioxide, heavy metals, and oxidizable substances. Total solids content will be no more than 10 ppm, pH will be 5–7, and the water will contain no coliforms. The United States Pharmacopoeia National Formulary (USP) requires that purified water comply with EPA regulations for bacteriological purity of drinking water (40 CFR 141.14, 141.21).
+                    </p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger" id="two">Refill</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+<!---distilled purified-->
+
+
+
+        <!---distilled alkaline-->
+
+        <div class="modal" id="alkaline">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Alkaline Water</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>
+                  Alkaline water is water that has been ionized, which naturally increases the the pH of the water. The pH level of a substance determines how acidic or alkaline it is, with 0 being very acidic and 14 being extremely basic. Alkaline water typically has a pH level of about 8 or 9, whereas normal water is neutral at 7. The theory is that drinking alkaline water helps to neutralize acids that are secreted inside the body. In doing so, you help establish an alkaline environment, which can reportedly assist with better function of bodily organs and systems. Alkaline water is filtered through ionizers, including calcium, potassium, and magnesium, which are necessary for electrolysis to work properly.
+                </p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-danger" id="three">Refill</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!---distilled alkaline-->
+
+        <!---buy purifier-->
+
+        <div class="modal" id="buypurifier">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Buy Purifier</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>
+                  PE water purifiers are installed on the premise where you get your water from such as a well or city connection. The equipment is placed at the source of water and filters out any contaminants before it reaches your home. This type of purifier does not require installation fees, electric costs, or maintenance costs like PU systems.
+                </p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-danger" id="four">add to cart</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!---buy purifier-->
+
+
+        <!---purifier installation-->
+
+        <div class="modal" id="purifierinstallation">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Purifier installation</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>
+                  Our team member will safely install the purifier you bought with us!
+                </p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-danger" id="five">Booked</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!---purifier installation-->
+
+        <!---sell used container-->
+
+        <div class="modal" id="usedbottle">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Sell Used Container</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>
+                  Sell you used container in exchange of water refill 
+                </p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-danger" id="six">Sell</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!---sell used container-->
+
+        <!---clean container-->
+
+        <div class="modal" id="testingwater">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Container Cleaning</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>
+                  We will go to your placed to clean water container and option to have them refill
+                </p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-danger" id="seven">add to cart</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!---clean container-->
+
+
+
+
+
+
+
+    <section class="main-order mx-5 my-5">
       <h1 class="maintagline">Product and Services</h1>
       <div class="container">
-        <div class="row"> 
-            <div class="column grow">
-              <a href="#"><img src="./image/distilled.jpg"class="circle" style="width:100%">
-                Distilled water
-              </a>
-              <a href="#"><img src="./image/usedbottlecontainer.png" style="width:100%">
-                Sell used container 
-              </a>
-            </div>
-
-            <div class="column grow">
-              <a href="#"><img src="./image/purified.jpg"class="circle" style="width:100%">
-                Purified Water
-              </a>
-              <a href="#"><img src="./image/testingwater.jpg" style="width:100%">
-                Cleaning Container
-              </a>
-            
-            
-            </div>
-            
-            <div class="column grow">
-            <a href="#"><img src="./image/alkaline.png"class="circle" style="width:100%">
-              Alkaline water
-            </a>
-            <a href="#"><img src="./image/purifierinstallation.jpg" style="width:100%">
-              Purifier installation 
-            </a>
-            
-            </div>
-            <div class="column grow">
-              <a href="#"><img src="./image/buypurifier.jpg"class="circle" style="width:100%">
-                Buy water purifier
-              </a>
-              
-             
+          <div class="row"> 
+              <div class="column grow">
+                  <a onclick="document.getElementById('distilled').style.display='block'" data-bs-toggle="modal" data-bs-target="#distilled" ><img src="./image/distilled.jpg"class="circle" style="width:100%" title="Click me">
+                    <p>
+                      Distilled water
+                    </p>
+                  </a>
+                  <a onclick="document.getElementById('usedbottle').style.display='block'" data-bs-toggle="modal" data-bs-target="#usedbottle"><img src="./image/usedbottlecontainer.png" style="width:100%" title="Click me">
+                    <p>
+                      Sell used container 
+                    </p>  
+                  </a>
               </div>
-        </diV>
+
+              <div class="column grow">
+                  <a onclick="document.getElementById('purified').style.display='block'" data-bs-toggle="modal" data-bs-target="#purified"><img src="./image/purified.jpg"class="circle" style="width:100%" title="Click me">
+                    <p>
+                      Purified Water
+                    </p>    
+                  </a>
+                  <a onclick="document.getElementById('testingwater').style.display='block'" data-bs-toggle="modal" data-bs-target="#testingwater"><img src="./image/testingwater.jpg" style="width:100%" title="click me">
+                    <p>
+                      Cleaning Container
+                    </p>           
+                  </a>
+              </div>
+              
+              <div class="column grow">
+                  <a onclick="document.getElementById('buypurifier').style.display='block'" data-bs-toggle="modal" data-bs-target="#buypurifier"><img src="./image/buypurifier.jpg"class="circle" style="width:100%" title="Click me">
+                    <p>
+                      Buy water purifier
+                    </p>                   
+                  </a>
+              </div>
+
+              <div class="column grow">
+                  <a onclick="document.getElementById('alkaline').style.display='block'" data-bs-toggle="modal" data-bs-target="#alkaline"><img src="./image/alkaline.png"class="circle" style="width:100%" title="Click me">
+                    <p>
+                      Alkaline water
+                    </p>
+                    
+                  </a>
+                  <a onclick="document.getElementById('purifierinstallation').style.display='block'" data-bs-toggle="modal" data-bs-target="#purifierinstallation"><img src="./image/purifierinstallation.jpg" style="width:100%" title="pindotin mo ko">
+                    <p>
+                      Purifier installation 
+                    </p>             
+                  </a>
+              </div>
+          </diV>
       </div>  
-
-
-      
-
     </section>
-
-   
-
-
-
-
-
-
-
-
 
     
     <footer>
       <div class="container text-center">
         <div class="row align-items-center mt-4">
-          
           <div class="col-sm-4">
-         
             <div class="row">
               <div class="col-sm-6">
                 <p>Contact Us</p>
@@ -145,14 +361,14 @@
           </div>
 
           <div class="col-sm-4">
-            <a href="./about.html">About Da-Num.co</a>
+            <a href="../dist/menus/about.html">About Da-Num.co</a>
             <br>
             <a href="./product-and-services.html">Product and Services offered</a>
             <br>
             <a href="./contactus.html">Need Help?</a>
           </div>
           <div class="col-sm-4">
-            <a href="./index.html">
+            <a href="./about.html">
               <img src="./image/logo.png" alt="logo-water-dropping" width="50px">
             </a>
             <p>
@@ -187,9 +403,50 @@
         </div>
       </div>    
       <p class="Copyright">
-      © Copyright <a href="#" style="text-decoration: none">Da-Num.co</a>. 2022 All Rights Reserved.
+      © Copyright <a href="./about.html" style="text-decoration: none">Da-Num.co</a>. 2022 All Rights Reserved.
       </p>
     </footer>
+
+    <script>
+      document.getElementById('one').onclick =() => {
+        alert('Preventing bogus buyer sign up first');
+      }
+
+      document.getElementById('two').onclick =() => {
+        alert('Preventing bogus buyer sign up first');
+      }
+
+      document.getElementById('three').onclick =() => {
+        alert('Preventing bogus buyer sign up first');
+      }
+
+      document.getElementById('four').onclick =() => {
+        alert('Preventing bogus buyer sign up first');
+      }
+
+      document.getElementById('five').onclick =() => {
+        alert('Preventing bogus buyer sign up first');
+      }
+
+      document.getElementById('six').onclick =() => {
+        alert('Preventing bogus buyer sign up first');
+      }
+
+      document.getElementById('seven').onclick =() => {
+        alert('Preventing bogus buyer sign up first');
+      }
+    </script>
+
+    
+
+   
+
+
+
+
+
+
+    
 
 
         <!-- Start of ChatBot (www.chatbot.com) code -->
@@ -206,7 +463,7 @@
 
 
 
-
+    
     <script src="https://kit.fontawesome.com/09761598c8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
