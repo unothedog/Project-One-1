@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
 
 $Text-color: #fff ;
 $BlueBG-color: #03a9f4;
@@ -9,7 +12,7 @@ $text: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
 
@@ -111,10 +114,6 @@ a {
   margin: 12px;
 }
 
-footer {
- 
-  background-color: $Text-color;
-}
 
 
 .fa-envelope {
@@ -130,7 +129,8 @@ footer {
 }
 
 a {
-  color: $MyBlackColor
+  color: $MyBlackColor;
+ 
 }
 
 //footer//

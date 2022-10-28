@@ -1,8 +1,48 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-.searchko {
-  position: absolute;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
 }
 
+.row { /* IE10 */
+  display: flex; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column { /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.maintagline {
+  text-align: center;
+  margin: auto;
+  color: #111;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* hover effects*/
+.grow img {
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  transform: scale(1.4);
+  transition: 1s ease;
+}
+
+/* hover effects*/
 /*footer*/
 .Copyright {
   text-align: center;
@@ -50,5 +90,19 @@ a {
   .container-fluid {
     overflow: hidden;
     z-index: 10;
+  }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }/*# sourceMappingURL=product-and-services.css.map */
