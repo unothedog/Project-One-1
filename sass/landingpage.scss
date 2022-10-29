@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 
 
@@ -12,7 +12,7 @@ $text: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 
@@ -62,6 +62,7 @@ $text: 'Poppins', sans-serif;
   color: $Text-color;
   line-height: 1em;
   text-transform: uppercase;
+ 
 }
 .text h3 {
   font-size: 4em;

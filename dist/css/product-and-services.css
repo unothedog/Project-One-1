@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Alfa Slab One", cursive;
 }
 
 .row { /* IE10 */
@@ -23,24 +23,26 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.748) 0px 54px 55px, rgba(0, 0, 0, 0.353) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
 }
 
 .maintagline {
   text-align: center;
   margin: auto;
-  color: #fff;
+  color: #111;
   position: -webkit-sticky;
   position: sticky;
-  font-family: "Titan One", cursive;
 }
 
 .grow > a > p {
-  color: #111;
+  color: #fff;
   font-size: 1rem;
+  font-size: larger;
 }
 
 body {
-  background-image: url("../image/bgimage2.jpg");
+  background-image: url("../image/bgwater3.jpg");
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
