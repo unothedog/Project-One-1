@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+        <link rel="stylesheet" href="css/signup.css" />
+    </head>
+    <body>
+        <div class="form-menu2">
+            <!--<img src="./imageabc.png">-->
+            <div class="form-login">
+                <form action="./product-and-services.html">
+                    <div>
+                        <h1>
+                            .
+                        </h1>
+                    </div>
+                    <div>
+                        <label class="form-label" for="fname">Username or Email:</label>
+                        <input class="form-input" type="text" id="username" placeholder="Email or Username" required>
+                    </div>
+                    <div>
+                        <label class="form-label" for="lname">Password:</label>
+                        <input class="form-input" type="password" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="submit">
+                        <button class="form-button" type="reset">Clear</button>
+                        <button onclick="validateForm()" class="form-button" type="submit">Submit</button>          
+                    </div>
+                    
+                </form>
+            </div>
+            <button class="form-button mt-5" type="Submit" id="backhome">Back to Home Page</button>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function validateForm() {
+            var user = document.getElementById('username').value;
+            var pwd = document.getElementById('password').value;
+            if (user !== "" && pwd !== "") {
+                alert("Thank you for logging in");
+                return true;
+            }
+            return false;
+            
+        }
+    </script>
+       <!---rediredcting to next page-->
+
+       <script type="text/javascript">
+        document.getElementById("backhome").onclick = function () {
+            location.href = "./index.html";
+            
+        };
+      </script>
+  
+
+
+</html>

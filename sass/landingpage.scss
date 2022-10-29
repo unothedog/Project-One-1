@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,200&display=swap');
 
 
 
@@ -7,12 +8,17 @@ $Text-color: #fff ;
 $BlueBG-color: #03a9f4;
 $MyBlackColor: #111;
 $text: 'Poppins', sans-serif;
+$text2: 'Alfa Slab One', cursive;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Alfa Slab One', cursive;
+  
+}
+
+.navbar {
+  font-family: $text2;
 }
 
 
@@ -62,6 +68,7 @@ $text: 'Poppins', sans-serif;
   color: $Text-color;
   line-height: 1em;
   text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
  
 }
 .text h3 {
@@ -70,6 +77,7 @@ $text: 'Poppins', sans-serif;
   color: $Text-color;
   line-height: 1em;
   text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
 }
 
 .text p  {
@@ -78,6 +86,7 @@ $text: 'Poppins', sans-serif;
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .text a {
@@ -92,6 +101,7 @@ $text: 'Poppins', sans-serif;
   color: $MyBlackColor;
   letter-spacing: 2px;
   transition: 0.2s;
+  font-family: $text2;
 }
 
 .text a:hover {
@@ -101,6 +111,10 @@ $text: 'Poppins', sans-serif;
 
 
 //footer//
+
+footer {
+  font-family: $text2;
+}
 
 .Copyright {
   text-align: center;
