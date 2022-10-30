@@ -34,10 +34,6 @@
                         <input class="form-input" type="tel" id="phone" placeholder="090000000" required>
                     </div>
                     <div>
-                        <label class="form-label" for="b-address">Billing Address:</label>
-                        <input class="form-input" type="address" id="b-address" placeholder="No. Street, Brgy, City" required>
-                    </div>
-                    <div>
                         <label class="form-label" for="username">Username:</label>
                         <input class="form-input" type="text" id="username" placeholder="Email or Username" required>
                     </div>
@@ -49,16 +45,19 @@
                         <label class="form-label" for="pwd2">Re-Type Password:</label>
                         <input class="form-input" type="password" id="pwd2" placeholder="Password" required>
                     </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Billing Address</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
                     <br>
                     <label for="terms-and-conditions" name="terms-and-conditions">
                         <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="#">terms and conditions</a>
                     </label>
-                    <div class="submit">
-                        
+                    <div class="submit mt-3">
                         <button class="form-button" id="submitalert" type="submit">Submit</button>
                     </div>
                 </form>
-                <button class="form-button" type="submit" id="backhome">Back to Home Page</button>
+                <button class="form-button my-5" type="submit" id="backhome">Back to Home Page</button>
             </div>
         </div>
 

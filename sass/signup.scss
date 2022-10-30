@@ -34,6 +34,9 @@ body {
     font-family: Tahoma;
     font-size: 16px;
     font-weight: bold;
+    background-image: url("../image/bgimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .form-menu{
@@ -62,6 +65,7 @@ body {
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+    
     
 }
 .form-request{
