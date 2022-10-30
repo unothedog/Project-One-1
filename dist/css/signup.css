@@ -20,9 +20,6 @@ body {
   font-family: Tahoma;
   font-size: 16px;
   font-weight: bold;
-  background-image: url("../image/testingwater.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .form-menu {
@@ -33,9 +30,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.8rem 0;
-  background-image: url(../html_forms/images/Wrench\ Set.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
@@ -71,13 +65,15 @@ body {
   color: var(--textcolor);
   font-weight: bolder;
   font-family: cursive, sans-serif;
-  background-image: url(../html_forms/images/imageabc.png);
+  background-image: url("../image/testingwater.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 80px;
   max-width: 500px;
   max-width: 100%;
   height: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.748) 0px 54px 55px, rgba(0, 0, 0, 0.353) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 h1, h3, p {
@@ -85,8 +81,7 @@ h1, h3, p {
   color: #fff;
 }
 
-.form-input,
-textarea {
+.form-input {
   background-color: #fff;
   color: #000;
   border: 1px solid #ccc;
@@ -98,35 +93,13 @@ textarea {
   text-indent: 10px;
 }
 
-.form-input:focus,
-textarea:focus {
-  outline: 0;
-  box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
-}
-
-.form-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: rgba(128, 128, 128, 0.46);
-  font-size: 0.8rem;
-}
-
-.form-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: rgba(128, 128, 128, 0.46);
-  font-size: 0.8rem;
-}
-
-.form-input::placeholder,
-textarea::placeholder {
-  color: rgba(128, 128, 128, 0.46);
-  font-size: 0.8rem;
-}
-
 .form-label {
   width: 100%;
   font-size: 1rem;
 }
 
 .form-button {
-  background: grey;
+  background: #111;
   color: #fff;
   border: 1px solid white;
   border-radius: 0.25rem;
@@ -151,14 +124,32 @@ textarea::placeholder {
   padding: 0.5rem 1.5rem;
 }
 
-.chk_option,
-.chk_error {
-  visibility: hidden;
-  color: red;
-  font-size: smaller;
+.form-request {
+  background-image: url("../image/testingwater.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.748) 0px 54px 55px, rgba(0, 0, 0, 0.353) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.img-holder {
-  width: 20px;
-  height: 20px;
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #03a9f4;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  background-color: #03a9f4;
+}
+
+button:active {
+  background-color: rgba(128, 128, 128, 0.752);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }/*# sourceMappingURL=signup.css.map */
