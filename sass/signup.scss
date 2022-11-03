@@ -115,10 +115,9 @@ h1, h3, p{
     font-size: 1rem;
     }
 .form-button{
-    background: $MyBlackColor;
+    background: $BlueBG-color;
     color: #fff;
-    border:1px solid white;
-    border-radius: 0.25rem;
+    border:1px solid white; 
     font-size: 0.8em;
     font-weight: 400;
     text-align: center;
@@ -126,6 +125,7 @@ h1, h3, p{
     cursor: pointer;
     user-select: none;
     font-style: normal;
+    border-radius: 50px;
 }
 .submit{
     margin-top: 1rem;
@@ -153,16 +153,17 @@ button {
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: $BlueBG-color ;
+    background-color: $BlueBG-color;
     border: none;
     box-shadow: 0 9px #999;
+    
     
   }
   
   button:hover {background-color: $BlueBG-color}
   
   button:active {
-    background-color: rgba(128, 128, 128, 0.752);
+    background-color: $BlueBG-color;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }

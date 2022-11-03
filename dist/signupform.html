@@ -51,10 +51,10 @@
                       </div>
                     <br>
                     <label for="terms-and-conditions" name="terms-and-conditions">
-                        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="#">terms and conditions</a>
+                        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="#" style="text-decoration: none; color: red">terms and conditions</a>
                     </label>
                     <div class="submit mt-3">
-                        <button class="form-button" id="submitalert" type="submit">Submit</button>
+                        <button onclick="validateForm()"  class="form-button" id="submitalert" type="submit">Submit</button>
                     </div>
                 </form>
                 <button class="form-button my-5" type="submit" id="backhome">Back to Home Page</button>
@@ -62,10 +62,16 @@
         </div>
 
         <script type="text/javascript">
-            document.getElementById('submitalert').onclick =() => {
-            alert('You will be now re-directed to log in page');
+            function validateForm() {
+                var user = document.getElementById('fname').value;
+                var pwd = document.getElementById('lname').value;
+                if (user !== "" && pwd !== "") {
+                    alert("You will now be re-directed to log in page");
+                    return true;
+                }
+                return false;
+                
             }
-       
         </script>
 
         
