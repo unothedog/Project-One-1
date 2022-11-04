@@ -18,11 +18,15 @@
                         </h1>
                     </div>
                     <div>
-                        <label class="form-label" for="fname">Username or Email:</label>
+                        <label class="form-label" for="fname">
+                            Username or Email: 
+                        </label>
                         <input class="form-input" type="text" id="username" placeholder="Email or Username" required>
                     </div>
                     <div>
-                        <label class="form-label" for="lname">Password:</label>
+                        <label class="form-label" for="lname">
+                            Password: 
+                        </label>
                         <input class="form-input" type="password" id="password" placeholder="Password" required>
                     </div>
                     <div class="submit mx-5 my-5">      
@@ -36,18 +40,18 @@
        
     </body>
 
-    <script type="text/javascript">
-        function validateForm() {
-            var user = document.getElementById('username').value;
-            var pwd = document.getElementById('password').value;
-            if (user !== "" && pwd !== "") {
-                alert("Thank you for logging in");
-                return true;
+        <script type="text/javascript">
+            function validateForm() {
+                var user = document.getElementById('username').value;
+                var pwd = document.getElementById('password').value;
+                if (user !== "" && pwd !== "") {
+                    alert("Thank you for logging in");
+                    return true;
+                }
+                return false;
+                
             }
-            return false;
-            
-        }
-    </script>
+        </script>
        <!---rediredcting to next page-->
 
        <script type="text/javascript">
